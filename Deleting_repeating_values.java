@@ -1,4 +1,3 @@
-ackage com.company;
 
 import java.util.*;
 
@@ -18,6 +17,7 @@ public class Main {
                 arrL.add(j);
             }
         }
+        Collections.sort (arrL);
         return arrL;
     }
 
